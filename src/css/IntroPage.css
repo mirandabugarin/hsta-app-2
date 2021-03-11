@@ -1,0 +1,22 @@
+.IntroBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 47%;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.Title {
+  font-size: 48px;
+}
+
+p {
+  font-size: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.italicize {
+  font-style: italic;
+}

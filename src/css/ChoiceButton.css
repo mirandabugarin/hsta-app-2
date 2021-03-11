@@ -1,0 +1,22 @@
+.unselected {
+  font-family: "Shippori Mincho", serif;
+  font-size: 25px;
+  text-align: left;
+  background-color: #ffc6b1;
+  padding: 20px;
+  border: none;
+  max-width: 50rem;
+}
+
+.selected {
+  font-family: "Shippori Mincho", serif;
+  font-size: 25px;
+  text-align: left;
+  background-color: #ffc6b1;
+  padding: 20px;
+  border: none;
+  border: solid;
+  border-color: white;
+  border-width: 7px;
+  max-width: 50rem;
+}

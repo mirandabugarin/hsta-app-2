@@ -1,0 +1,14 @@
+.OutcomePanelWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 25px;
+  padding-left: 3rem;
+}
+
+.OutcomePanel {
+  width: 60%;
+  padding-bottom: 2rem;
+}

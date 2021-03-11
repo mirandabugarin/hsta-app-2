@@ -1,0 +1,12 @@
+.StoryPanelWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+.StoryPanel {
+  width: 60%;
+}
