@@ -1,0 +1,22 @@
+.References {
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+}
+.citation {
+  font-size: 18px;
+}
+
+.link {
+  padding-left: 3rem;
+}
+
+.return {
+  font-size: 18px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.return:hover {
+  text-decoration: underline;
+}

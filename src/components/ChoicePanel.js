@@ -9,18 +9,24 @@ export default class ChoicePanel extends Component {
     this.state = {
       isButton1Selected: false,
       isButton2Selected: false,
+      isNextButtonVisible: false,
     };
   }
+
   render() {
     const handleButton1Click = () => {
       console.log("button1 state is %s", this.state.isButton1Selected);
       if (!this.state.isButton1Selected) {
         this.setState((state) => ({
           isButton2Selected: false,
+          isNextButtonVisible: true,
         }));
-        document.querySelector(".NextButton").style.visibility = "visible";
+        //document.querySelector(".NextButton").style.visibility = "visible";
       } else if (!this.state.isButton2Selected) {
-        document.querySelector(".NextButton").style.visibility = "hidden";
+        this.setState((state) => ({
+          isNextButtonVisible: false,
+        }));
+        //document.querySelector(".NextButton").style.visibility = "hidden";
       }
       this.setState((state) => ({
         isButton1Selected: !state.isButton1Selected,
@@ -32,10 +38,14 @@ export default class ChoicePanel extends Component {
       if (!this.state.isButton2Selected) {
         this.setState((state) => ({
           isButton1Selected: false,
+          isNextButtonVisible: true,
         }));
-        document.querySelector(".NextButton").style.visibility = "visible";
+        //document.querySelector(".NextButton").style.visibility = "visible";
       } else if (!this.state.isButton1Selected) {
-        document.querySelector(".NextButton").style.visibility = "hidden";
+        this.setState((state) => ({
+          isNextButtonVisible: false,
+        }));
+        //document.querySelector(".NextButton").style.visibility = "hidden";
       }
       this.setState((state) => ({
         isButton2Selected: !state.isButton2Selected,
@@ -48,6 +58,13 @@ export default class ChoicePanel extends Component {
         isButton2Selected: false,
       }));
     };
+
+    const resetNextButton = () => {
+      this.setState((state) => ({
+        isNextButtonVisible: false,
+      }));
+    };
+
     return (
       <div className="ChoicePanelWrapper">
         <div className="ChoicePanel">
@@ -71,11 +88,16 @@ export default class ChoicePanel extends Component {
           callback={this.props.callback}
           type={"choicePanel"}
           resetButtonStates={resetButtonStates}
+          resetNextButton={resetNextButton}
           isButton1Selected={this.state.isButton1Selected}
           isButton2Selected={this.state.isButton2Selected}
+          isNextButtonVisible={this.state.isNextButtonVisible}
           updateScore={this.props.updateScore}
           resetScore={this.props.resetScore}
           needToResetScore={this.props.needToResetScore}
+          ignore={this.props.ignore}
+          updateSubScore={this.props.updateSubScore}
+          subScore={"subScore"}
         />
       </div>
     );

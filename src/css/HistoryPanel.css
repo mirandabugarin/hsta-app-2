@@ -8,23 +8,61 @@
   color: black;
   display: flex;
   flex-direction: column;
-  padding: 3rem 5rem;
   font-size: 20px;
+  padding: 3rem 2rem;
 }
 
-.section2 {
+.history1,
+.history2,
+.history3,
+.history4,
+.history5 {
   display: flex;
-  flex-direction: row;
-  padding: 2rem 3rem;
+  padding-top: 3rem;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+  padding-left: 5rem;
 }
 
-.section2 p {
-  font-size: 18px;
+.history1 {
+  max-height: 500px;
 }
 
-.text {
-  width: 45%;
+.history2 {
+  max-height: 700px;
 }
+
+.history3 {
+  max-height: 700px;
+}
+
+.history4 {
+  max-height: 900px;
+}
+
+.history5 {
+  max-height: 500px;
+}
+
+.section3 {
+  color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-self: flex-end;
+  padding-right: 6rem;
+}
+
+.history1 p,
+.history2 p,
+.history3 p,
+.history4 p,
+.history5 p {
+  width: 40%;
+  font-size: 17px;
+}
+
 .quote1,
 .quote2 {
   width: 50%;
@@ -41,4 +79,24 @@
 
 .source {
   font-style: italic;
+}
+
+img {
+  max-width: 500px;
+  min-width: 500px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-size: 15px;
+  color: white;
+}
+
+.ImageAndButtonWrapper {
+  display: flex;
+  flex-direction: column;
 }

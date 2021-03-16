@@ -22,14 +22,25 @@ export default class HistoryPanel extends Component {
             </div>
           </div>
         </div>
-        <div className="section2">
-          <div className="text">
-            {this.props.history[0].content.map((paragraph) => (
-              <p>{paragraph}</p>
-            ))}
+        <div className={this.props.historyType}>
+          {this.props.history[0].content.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+          <div className="image">
+            <img src={this.props.image} alt={this.props.description}></img>
+            <a href={this.props.href} target="_blank">
+              {this.props.articleTitle}
+            </a>
           </div>
-          <div className="image"></div>
-          <CustomButton label={"Continue"} callback={this.props.callback} />
+        </div>
+        <div className="section3">
+          {" "}
+          <CustomButton
+            label={"Continue"}
+            callback={this.props.callback}
+            dashboardActive={this.props.dashboardActive}
+            returnToDashboard={this.props.returnToDashboard}
+          />
         </div>
       </div>
     );
