@@ -20,6 +20,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href="https://www.businessinsider.com/most-inspiring-tech-execs-hired-musk-bezos-zuckerberg-2019-9"
         >
           https://www.businessinsider.com/most-inspiring-tech-execs-hired-musk-bezos-zuckerberg-2019-9
@@ -32,6 +33,7 @@ function References(props) {
           className="link"
           href="https://doi.org/10.1145/1142620.1142628"
           target="_blank"
+          rel="noreferrer"
         >
           https://doi.org/10.1145/1142620.1142628
         </a>
@@ -46,6 +48,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href="https://trilogyalumni.org/2015/07/23/those-trilogy-guys-down-in-austin/"
         >
           https://trilogyalumni.org/2015/07/23/those-trilogy-guys-down-in-austin/
@@ -57,6 +60,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href="https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/"
         >
           https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/
@@ -68,6 +72,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href="https://fortune.com/2007/11/13/paypal-mafia/"
         >
           https://fortune.com/2007/11/13/paypal-mafia/
@@ -79,6 +84,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href=" https://nymag.com/news/intelligencer/tech-company-perks-2013-4/"
         >
           {" "}
@@ -91,6 +97,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href="https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html"
         >
           https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html
@@ -102,6 +109,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href="https://www.forbes.com/sites/nathanvardi/2018/11/19/how-a-mysterious-tech-billionaire-created-two-fortunesand-a-global-software-sweatshop/?sh=6102a2ba6cff"
         >
           https://www.forbes.com/sites/nathanvardi/2018/11/19/how-a-mysterious-tech-billionaire-created-two-fortunesand-a-global-software-sweatshop/?sh=6102a2ba6cff
@@ -113,6 +121,7 @@ function References(props) {
         <a
           className="link"
           target="_blank"
+          rel="noreferrer"
           href="https://www.bizjournals.com/sanjose/news/2013/06/20/google-those-brain-teaser-interview.html"
         >
           https://www.bizjournals.com/sanjose/news/2013/06/20/google-those-brain-teaser-interview.html

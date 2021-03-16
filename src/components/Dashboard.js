@@ -54,7 +54,7 @@ export default class Dashboard extends Component {
     return (
       <div className="Dashboard">
         <div className="topnav">
-          <div className="title">Scenarios Dashboard</div>
+          <div className="title">Review Scenarios</div>
           <div className="topnav-right">
             <div className="navComp" onClick={restart}>
               Restart

@@ -21,34 +21,33 @@ import trilogyImage from "./images/trilogy.png";
 import googleWomen from "./images/googleWomen.png";
 import payPalMafia from "./images/payPalMafia.png";
 import techPerks from "./images/techperks.png";
-//import StaticStoryPanel from "./components/StaticStoryPanel";
 
 export default class App extends Component {
   state = {
-    componentIndex: 0, // need to change to 0
+    componentIndex: 0, // default is 0
     score: 0,
     subScore: 0,
-    dashboardActive: false, // need to change to false
+    dashboardActive: false, // default is false
   };
 
   handleClick = () => {
     this.setState({ componentIndex: this.state.componentIndex + 1 });
-    console.log("componentIndex is %d", this.state.componentIndex);
+    //console.log("componentIndex is %d", this.state.componentIndex);
   };
 
   updateScore = () => {
     this.setState({ score: this.state.score + 1 });
-    console.log("score is %d", this.state.score);
+    //console.log("score is %d", this.state.score);
   };
 
   resetScore = () => {
     this.setState({ score: 0 });
-    console.log("score is %d", this.state.score);
+    //console.log("score is %d", this.state.score);
   };
 
   updateSubScore = () => {
     this.setState({ subScore: this.state.subScore + 1 });
-    console.log("subScore is %d", this.state.subScore);
+    //console.log("subScore is %d", this.state.subScore);
   };
 
   activateDashboard = () => {
@@ -66,12 +65,12 @@ export default class App extends Component {
       subScore: 0,
       dashboardActive: false,
     });
-    console.log("restart");
+    //console.log("restart");
   };
 
   references = () => {
     this.setState({ componentIndex: 58 });
-    console.log("references");
+    //console.log("references");
   };
 
   replayFirstScenario = () => {
@@ -228,7 +227,6 @@ export default class App extends Component {
           callback={this.handleClick}
           strings={decisions["decision6"]}
           updateScore={this.updateScore}
-          //updateSubScore={this.updateSubScore}
           ignore={"ignore"}
         />
       );
@@ -518,7 +516,6 @@ export default class App extends Component {
           callback={this.handleClick}
           strings={decisions["decision13"]}
           updateScore={this.updateScore}
-          //updateSubScore={this.updateSubScore}
         />
       );
     } else if (this.state.componentIndex === 34) {
@@ -530,7 +527,6 @@ export default class App extends Component {
             updateScore={this.updateScore}
             ignore={"ignore"}
             updateSubScore={this.updateSubScore}
-            //subScore={"subScore"}
           />
         );
       } else {
@@ -549,7 +545,6 @@ export default class App extends Component {
               callback={this.handleClick}
               strings={decisions["decision15"]}
               updateScore={this.updateScore}
-              //updateSubScore={this.updateSubScore}
             />
           );
         } else {
@@ -558,7 +553,6 @@ export default class App extends Component {
               callback={this.handleClick}
               strings={decisions["decision16"]}
               updateScore={this.updateScore}
-              //updateSubScore={this.updateSubScore}
             />
           );
         }
@@ -569,12 +563,11 @@ export default class App extends Component {
             strings={decisions["decision17"]}
             updateScore={this.updateScore}
             ignore={"ignore"}
-            //updateSubScore={this.updateSubScore}
           />
         );
       }
     } else if (this.state.componentIndex === 36) {
-      console.log("should show outcomes");
+      //console.log("should show outcomes");
       if (this.state.score === 2) {
         return (
           <OutcomePanel
@@ -632,7 +625,6 @@ export default class App extends Component {
           callback={this.handleClick}
           strings={decisions["decision18"]}
           updateScore={this.updateScore}
-          //updateSubScore={this.updateSubScore}
         />
       );
     } else if (this.state.componentIndex === 40) {
@@ -673,7 +665,6 @@ export default class App extends Component {
           callback={this.handleClick}
           strings={decisions["decision19"]}
           updateScore={this.updateScore}
-          //updateSubScore={this.updateSubScore}
         />
       );
     } else if (this.state.componentIndex === 44) {
@@ -714,7 +705,6 @@ export default class App extends Component {
           callback={this.handleClick}
           strings={decisions["decision20"]}
           updateScore={this.updateScore}
-          //updateSubScore={this.updateSubScore}
         />
       );
     } else if (this.state.componentIndex === 48) {
@@ -752,7 +742,6 @@ export default class App extends Component {
           callback={this.handleClick}
           strings={decisions["decision21"]}
           updateScore={this.updateScore}
-          //updateSubScore={this.updateSubScore}
         />
       );
     } else if (this.state.componentIndex === 52) {
@@ -807,5 +796,3 @@ export default class App extends Component {
     return <IntroPage callback={this.handleClick} />;
   }
 }
-
-//export default App;

@@ -10,7 +10,6 @@ function HistoryButton(props) {
       className={
         props.isHistoryButtonVisible ? "historyVisible" : "historyHidden"
       }
-      //className="HistoryButton"
     >
       <label>Historical Context</label>
       <div>
