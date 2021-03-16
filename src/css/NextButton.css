@@ -5,11 +5,9 @@
   position: relative;
   right: 0;
   transition: right ease 0.5s;
-  opacity: 80%;
   width: 5rem;
 }
 
 .NextButton:hover {
   right: -10px;
-  opacity: 100%;
 }

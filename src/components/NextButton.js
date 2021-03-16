@@ -29,7 +29,8 @@ function NextButton(props) {
   //console.log("next button " + props.isNextButtonVisible);
   return (
     <div className="NextButton" onClick={handleClick}>
-      <img src={arrow}></img>
+      <i class="fa fa-angle-right"></i>
+      <i class="fa fa-angle-right"></i>
     </div>
   );
 }
