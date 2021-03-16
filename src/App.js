@@ -28,7 +28,7 @@ export default class App extends Component {
     componentIndex: 0, // need to change to 0
     score: 0,
     subScore: 0,
-    dashboardActive: true, // need to change to false
+    dashboardActive: false, // need to change to false
   };
 
   handleClick = () => {
