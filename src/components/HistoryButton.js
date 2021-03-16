@@ -1,11 +1,17 @@
 import "../css/HistoryButton.css";
 
-function CustomButton(props) {
+function HistoryButton(props) {
   const handleClick = () => {
     props.callback();
   };
   return (
-    <div onClick={handleClick} className="historyButton">
+    <div
+      onClick={handleClick}
+      className={
+        props.isHistoryButtonVisible ? "historyVisible" : "historyHidden"
+      }
+      //className="HistoryButton"
+    >
       <label>Historical Context</label>
       <div>
         <i class="fa fa-angle-right"></i>
@@ -15,4 +21,4 @@ function CustomButton(props) {
   );
 }
 
-export default CustomButton;
+export default HistoryButton;

@@ -10,8 +10,9 @@ export default class CustomTyping extends Component {
             speed={20}
             startDelay={this.props.customTyping.startDelay}
             onFinishedTyping={() => {
-              document.querySelector(".historyButton").style.visibility =
-                "visible";
+              this.props.toggleHistoryButton();
+              /*document.querySelector(".HistoryButton").style.visibility =
+                "visible";*/
             }}
           >
             <span>{this.props.customTyping.text}</span>
@@ -23,8 +24,9 @@ export default class CustomTyping extends Component {
             speed={20}
             startDelay={this.props.customTyping.startDelay}
             onFinishedTyping={() => {
-              document.querySelector(".NextButton").style.visibility =
-                "visible";
+              this.props.toggleNextButton();
+              /*document.querySelector(".NextButton").style.visibility =
+                "visible";*/
             }}
           >
             <span>{this.props.customTyping.text}</span>

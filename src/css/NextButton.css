@@ -1,4 +1,4 @@
-.NextButton {
+.hidden {
   display: flex;
   flex-direction: row;
   visibility: hidden;
@@ -9,7 +9,18 @@
   opacity: 80%;
 }
 
-.NextButton:hover {
+.visible {
+  display: flex;
+  visibility: visible;
+  flex-direction: row;
+  font-size: 50px;
+  position: relative;
+  right: 0;
+  transition: right ease 0.5s;
+  opacity: 80%;
+}
+
+.visible:hover {
   right: -10px;
   opacity: 100%;
 }

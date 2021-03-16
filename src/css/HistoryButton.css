@@ -1,5 +1,15 @@
-.historyButton {
+.historyHidden {
   visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 0;
+  transition: right ease 0.5s;
+  opacity: 80%;
+}
+
+.historyVisible {
+  visibility: visible;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -12,7 +22,7 @@ label {
   padding-right: 1rem;
 }
 
-.historyButton:hover {
+.historyVisible:hover {
   right: -10px;
   opacity: 100%;
 }

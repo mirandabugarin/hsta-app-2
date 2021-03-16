@@ -1,0 +1,56 @@
+.topnav {
+  background-color: #df9276;
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+}
+
+.title {
+  float: left;
+  font-size: 18px;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-weight: 700;
+}
+
+.topnav-right {
+  padding-top: 1rem;
+  float: right;
+}
+
+.navComp {
+  font-size: 18px;
+  text-decoration: none;
+  display: inline;
+  padding-right: 2rem;
+}
+
+.navComp:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.scenarioWrapper {
+  padding-bottom: 1.5rem;
+}
+
+.scenario {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: #ffc6b1;
+  border: none;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.scenario:hover {
+  background-color: #ffded1;
+}

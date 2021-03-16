@@ -30,7 +30,7 @@ let outcomes = {
     },
     {
       id: 203,
-      startDelay: 8000,
+      startDelay: 8500,
       type: "statement",
       text: "So what did you miss out on?",
       last: false,
@@ -70,7 +70,7 @@ let outcomes = {
     },
     {
       id: 208,
-      startDelay: 6000,
+      startDelay: 6500,
       type: "statement",
       text:
         "You spend the next year at Trilogy working holidays and till 11:30 pm everyday,",
@@ -94,10 +94,120 @@ let outcomes = {
     },
     {
       id: 211,
-      startDelay: 21000,
+      startDelay: 21500,
       type: "statement",
       text:
         "“Money, recruiters, beer, repeat” was not the slogan of a college frat house, but was your company’s motto, and its culture is not very women-friendly.",
+      last: true,
+    },
+  ],
+  scenario3Outcome1: [
+    {
+      id: 212,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "Despite your efforts to save your company, it ends up failing. This is due in part of not thoughtfully building a diverse company culture from the start.",
+      last: true,
+    },
+  ],
+  scenario3Outcome2: [
+    {
+      id: 213,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "Despite your efforts to prioritize hiring more women at the start of building your company, after two decades, women only make up 21 percent of all technical jobs.",
+      last: true,
+    },
+  ],
+  scenario4Outcome1: [
+    {
+      id: 214,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "You are criticized by moms and random journalists alike for taking such a short maternity leave, and failing to fulfill the responsibilities of a good mom. Several articles also question your ability to lead your company as a pregnant CEO.",
+      last: true,
+    },
+  ],
+  scenario4Outcome2: [
+    {
+      id: 215,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "You are criticized for taking too long of a maternity leave, and putting your company’s future at stake. Yet, if you were to choose a short maternity leave, there is no doubt that you would’ve faced criticisms for not being a good mom.",
+      last: true,
+    },
+  ],
+  scenario4Outcome3: [
+    {
+      id: 216,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "Eventually, you become burnt out from meeting strenuous work demands and sometimes compromising your familial responsibilities, which has created conflict at home. Not only did you pass on a career opportunity of being a CEO, but you also decide to leave your company, and are not sure if or when you will return to the tech industry.",
+      last: true,
+    },
+  ],
+  speedRound1Outcome1: [
+    {
+      id: 217,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "A few days later, you hear back from the company that you interviewed for. They decided to move forward with another candidate.",
+      last: true,
+    },
+  ],
+  speedRound1Outcome2: [
+    {
+      id: 218,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "A few days later, you hear back from the company you interviewed for. They say that in addition to being a great engineer, you are also a great culture fit. Welcome to the team!",
+      last: true,
+    },
+  ],
+  speedRound2Outcome1: [
+    {
+      id: 219,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "You are able to secure the VC’s investment, but now that he is a major backer, you have to interact with him often. His harassment definitely does not stop, and he gets more bold every time.",
+      last: true,
+    },
+  ],
+  speedRound2Outcome2: [
+    {
+      id: 220,
+      startDelay: 0,
+      type: "statement",
+      text:
+        ' You lose this VC as a potential investor. He may even call you a "bitch" for being rejected.',
+      last: true,
+    },
+  ],
+  speedRound3Outcome1: [
+    {
+      id: 221,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "You put up with unwanted advances from your boss for a few months on the job, until you can no longer focus on your work and decide to transfer to another department.",
+      last: true,
+    },
+  ],
+  speedRound3Outcome2: [
+    {
+      id: 222,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "When you take this to HR, they tell you that your boss probably meant well, and perhaps you misinterpreted it. The HR department feels that a punishment would be unnecessary--after all, he is a “high performer” and probably just made an “innocent mistake.” To make you feel better, though, they will give him a warning.",
       last: true,
     },
   ],

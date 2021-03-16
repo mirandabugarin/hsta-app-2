@@ -166,7 +166,7 @@ let storyStrings = {
       startDelay: 0,
       type: "statement",
       text:
-        "Liemandt offers you an interview since you went to a prestigious university that Trilogy is actively recruiting from--among Stanford is Harvard, Carnegie Mellon, and MIT.",
+        "Liemandt offers you an interview since you went to a prestigious university that Trilogy is actively recruiting from--among Stanford are Harvard, Carnegie Mellon, and MIT.",
       last: false,
     },
     {
@@ -238,7 +238,276 @@ let storyStrings = {
       startDelay: 9000,
       type: "statement",
       text:
-        "Instead, he says that he is going ask you a brain teaser to see how well you can think on your feet.",
+        "Instead, he says that he is going to ask you a brain teaser to see how well you can think on your feet.",
+      last: true,
+    },
+  ],
+  scenario3: [
+    {
+      id: 35,
+      startDelay: 0,
+      type: "statement",
+      text: "You are a co-founder of a small start-up.",
+      last: false,
+    },
+    {
+      id: 36,
+      startDelay: 2000,
+      type: "statement",
+      text:
+        "Currently you and your team all share the same demographic makeup: young, white, male, and from a prestigious university.",
+      last: false,
+    },
+    {
+      id: 37,
+      startDelay: 8000,
+      type: "statement",
+      text:
+        "After all, that is how you recruited your initial team in the first place: you knew some buddies from college, who also knew some buddies from college. ",
+      last: false,
+    },
+    {
+      id: 38,
+      startDelay: 16000,
+      type: "statement",
+      text: "The result: your team is made up of people like you.",
+      last: false,
+    },
+    {
+      id: 39,
+      startDelay: 20000,
+      type: "statement",
+      text:
+        "As you continue to grow your startup and recruit new candidates, you are faced with a choice to make. You realize that there are no women on your team.",
+      last: false,
+    },
+    {
+      id: 40,
+      startDelay: 28000,
+      type: "statement",
+      text:
+        "However, one of your employees mentions that his friend from college is interested in joining.",
+      last: false,
+    },
+    {
+      id: 41,
+      startDelay: 34000,
+      type: "statement",
+      text: "This friend also happens to be young, white, and male.",
+      last: true,
+    },
+  ],
+  playGoogleScenario: [
+    {
+      id: 42,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "Things may have turned out differently if you prioritized hiring more women at the start. See what would happen if you were to choose this instead.",
+      last: true,
+    },
+  ],
+  playPayPalScenario: [
+    {
+      id: 43,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "See what would happen if you did not prioritize hiring more women at the start.",
+      last: true,
+    },
+  ],
+  scenario4: [
+    {
+      id: 44,
+      startDelay: 0,
+      type: "statement",
+      text: "You are a female engineering director at a prominent company.",
+      last: false,
+    },
+    {
+      id: 45,
+      startDelay: 3000,
+      type: "statement",
+      text:
+        "You are interested in taking on a bigger role at your company now, but upper management has been reluctant to hand you that promotion.",
+      last: false,
+    },
+    {
+      id: 46,
+      startDelay: 10000,
+      type: "statement",
+      text:
+        " One day, a competitor company offers you the role of CEO. This competitor company, however, has been struggling, and it will be a challenge to get it back on its feet.",
+      last: true,
+    },
+  ],
+  pregnancy: [
+    {
+      id: 47,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "A few weeks later, you find out that you are pregnant, so you will have to take off a few months from work.",
+      last: false,
+    },
+    {
+      id: 48,
+      startDelay: 5000,
+      type: "statement",
+      text:
+        "When you come back, you notice how difficult it is to balance work and family.",
+      last: false,
+    },
+    {
+      id: 49,
+      startDelay: 9000,
+      type: "statement",
+      text:
+        "Your company prioritizes working long hours, and you notice that you are one of the few who actually has kids.",
+      last: false,
+    },
+    {
+      id: 50,
+      startDelay: 15000,
+      type: "statement",
+      text:
+        "You notice that your employees and boss have questioned your commitment and job performance various times since you got back.",
+      last: true,
+    },
+  ],
+  scenario5: [
+    {
+      id: 51,
+      startDelay: 0,
+      type: "statement",
+      text: "Speed Round!",
+      last: false,
+    },
+    {
+      id: 52,
+      startDelay: 1000,
+      type: "statement",
+      text:
+        "Go through some of the daily experiences of women working in Silicon Valley in the past decade.",
+      last: true,
+    },
+  ],
+  vc: [
+    {
+      id: 53,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "You recently founded a startup and are in need of financial backers.",
+      last: false,
+    },
+    {
+      id: 54,
+      startDelay: 4000,
+      type: "statement",
+      text:
+        "One notable venture capitalist (VC) is interested, and you meet for drinks one night.",
+      last: false,
+    },
+    {
+      id: 55,
+      startDelay: 9000,
+      type: "statement",
+      text:
+        "When you start talking about business, he interrupts and says that he does not want to talk about work.",
+      last: false,
+    },
+    {
+      id: 56,
+      startDelay: 15000,
+      type: "statement",
+      text:
+        "He is excessively interested in your dating life, invades your personal space, and pressures you to spend the night at his place.",
+      last: true,
+    },
+  ],
+  uber: [
+    {
+      id: 57,
+      startDelay: 0,
+      type: "statement",
+      text: "It is your first day working at a new company.",
+      last: false,
+    },
+    {
+      id: 58,
+      startDelay: 3000,
+      type: "statement",
+      text: "Your new boss welcomes you.",
+      last: false,
+    },
+    {
+      id: 59,
+      startDelay: 4500,
+      type: "statement",
+      text:
+        "Later that day, he messages you on the company’s internal chat system. Somehow, the topic becomes about his open relationship, and how it has been difficult for him to find other partners, but not his girlfriend.",
+      last: false,
+    },
+    {
+      id: 60,
+      startDelay: 16000,
+      type: "statement",
+      text:
+        "As he goes on this non-work related tangent, it is clear that he is making a pass at you.",
+      last: true,
+    },
+  ],
+  sexism: [
+    {
+      id: 61,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "You are a senior software engineer with many years of experience under your belt.",
+      last: false,
+    },
+    {
+      id: 62,
+      startDelay: 4000,
+      type: "statement",
+      text:
+        "You have given talks at tech conferences and have led multiple projects and teams at various companies.",
+      last: false,
+    },
+    {
+      id: 63,
+      startDelay: 10000,
+      type: "statement",
+      text:
+        "Today, you are interviewing a candidate for a junior level position.",
+      last: false,
+    },
+    {
+      id: 64,
+      startDelay: 14000,
+      type: "statement",
+      text:
+        "During the interview, the candidate, who happens to be a man, is condescending towards you when answering questions. You get the impression that he feels like you are wasting his time.",
+      last: true,
+    },
+  ],
+  labor: [
+    {
+      id: 65,
+      startDelay: 0,
+      type: "statement",
+      text:
+        "“The point isn’t that any one comment or incident is going to push a woman out of tech or make her miserable at work.",
+      last: false,
+    },
+    {
+      id: 66,
+      startDelay: 6000,
+      type: "statement",
+      text:
+        "It’s the constant emotional labor that she has to perform, day after day, just to keep her job and do her work. Often, women will not immediately blame sexism if they feel they are being mistreated or overlooked, rather they question themselves.” - Chang",
       last: true,
     },
   ],

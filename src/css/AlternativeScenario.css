@@ -1,0 +1,36 @@
+.AlternativeScenarioWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+.AlternativeScenario {
+  width: 60%;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+.determined {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.StaticNextButton {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  position: relative;
+  right: 0;
+  transition: right ease 0.5s;
+  opacity: 80%;
+}
+
+.StaticNextButton:hover {
+  right: -10px;
+  opacity: 100%;
+}
