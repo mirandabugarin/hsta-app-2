@@ -6,6 +6,7 @@
   right: 0;
   transition: right ease 0.5s;
   opacity: 80%;
+  width: 5rem;
 }
 
 .NextButton:hover {
