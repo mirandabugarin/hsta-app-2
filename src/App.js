@@ -25,7 +25,7 @@ import techPerks from "./images/techperks.png";
 
 export default class App extends Component {
   state = {
-    componentIndex: 57, // need to change to 0
+    componentIndex: 0, // need to change to 0
     score: 0,
     subScore: 0,
     dashboardActive: true, // need to change to false
