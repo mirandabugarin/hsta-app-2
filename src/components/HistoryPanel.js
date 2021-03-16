@@ -28,7 +28,7 @@ export default class HistoryPanel extends Component {
           ))}
           <div className="image">
             <img src={this.props.image} alt={this.props.description}></img>
-            <a href={this.props.href} target="_blank">
+            <a href={this.props.href} target="_blank" rel="noreferrer">
               {this.props.articleTitle}
             </a>
           </div>

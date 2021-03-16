@@ -15,18 +15,16 @@ export default class ChoicePanel extends Component {
 
   render() {
     const handleButton1Click = () => {
-      console.log("button1 state is %s", this.state.isButton1Selected);
+      //console.log("button1 state is %s", this.state.isButton1Selected);
       if (!this.state.isButton1Selected) {
         this.setState((state) => ({
           isButton2Selected: false,
           isNextButtonVisible: true,
         }));
-        //document.querySelector(".NextButton").style.visibility = "visible";
       } else if (!this.state.isButton2Selected) {
         this.setState((state) => ({
           isNextButtonVisible: false,
         }));
-        //document.querySelector(".NextButton").style.visibility = "hidden";
       }
       this.setState((state) => ({
         isButton1Selected: !state.isButton1Selected,
@@ -34,18 +32,16 @@ export default class ChoicePanel extends Component {
     };
 
     const handleButton2Click = () => {
-      console.log("button2 state is %s", this.state.isButton2Selected);
+      //console.log("button2 state is %s", this.state.isButton2Selected);
       if (!this.state.isButton2Selected) {
         this.setState((state) => ({
           isButton1Selected: false,
           isNextButtonVisible: true,
         }));
-        //document.querySelector(".NextButton").style.visibility = "visible";
       } else if (!this.state.isButton1Selected) {
         this.setState((state) => ({
           isNextButtonVisible: false,
         }));
-        //document.querySelector(".NextButton").style.visibility = "hidden";
       }
       this.setState((state) => ({
         isButton2Selected: !state.isButton2Selected,
