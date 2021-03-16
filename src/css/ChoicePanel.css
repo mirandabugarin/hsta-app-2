@@ -1,0 +1,24 @@
+.ChoicePanelWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.ChoicePanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.Question {
+  font-size: 28px;
+  padding-bottom: 3rem;
+  max-width: 88%;
+}
+
+.ChoiceWrapper {
+  padding-bottom: 3rem;
+}

@@ -1,0 +1,15 @@
+.NextButton {
+  display: flex;
+  flex-direction: row;
+  visibility: hidden;
+  font-size: 50px;
+  position: relative;
+  right: 0;
+  transition: right ease 0.5s;
+  opacity: 80%;
+}
+
+.NextButton:hover {
+  right: -10px;
+  opacity: 100%;
+}

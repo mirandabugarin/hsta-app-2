@@ -1,0 +1,44 @@
+.HistoryPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  background-color: #ffc6b1;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 5rem;
+  font-size: 20px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 3rem;
+}
+
+.section2 p {
+  font-size: 18px;
+}
+
+.text {
+  width: 45%;
+}
+.quote1,
+.quote2 {
+  width: 50%;
+}
+
+.quote1 {
+  text-align: left;
+}
+
+.quote2 {
+  text-align: right;
+  align-self: flex-end;
+}
+
+.source {
+  font-style: italic;
+}

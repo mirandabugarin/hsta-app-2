@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 11rem;
+  position: relative;
+  right: 0;
+  transition: right ease 0.5s;
+  opacity: 80%;
+}
+
+.button:hover {
+  right: -10px;
+  opacity: 100%;
+}
