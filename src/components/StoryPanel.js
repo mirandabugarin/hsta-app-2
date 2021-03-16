@@ -46,17 +46,15 @@ export default class StoryPanel extends Component {
             </div>
           ))}
         </div>
-        {this.state.isNextButtonVisible ? (
-          <NextButton
-            callback={this.props.callback}
-            resetScore={this.props.resetScore}
-            needToResetScore={this.props.needToResetScore}
-            isNextButtonVisible={this.state.isNextButtonVisible}
-            resetNextButton={resetNextButton}
-            dashboardActive={this.props.dashboardActive}
-            returnToDashboard={this.props.returnToDashboard}
-          />
-        ) : null}
+        <NextButton
+          callback={this.props.callback}
+          resetScore={this.props.resetScore}
+          needToResetScore={this.props.needToResetScore}
+          isNextButtonVisible={this.state.isNextButtonVisible}
+          resetNextButton={resetNextButton}
+          dashboardActive={this.props.dashboardActive}
+          returnToDashboard={this.props.returnToDashboard}
+        />
       </div>
     );
   }

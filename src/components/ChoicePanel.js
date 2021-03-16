@@ -80,23 +80,21 @@ export default class ChoicePanel extends Component {
             handleButton2Click={handleButton2Click}
           />
         </div>
-        {this.state.isNextButtonVisible ? (
-          <NextButton
-            callback={this.props.callback}
-            type={"choicePanel"}
-            resetButtonStates={resetButtonStates}
-            resetNextButton={resetNextButton}
-            isButton1Selected={this.state.isButton1Selected}
-            isButton2Selected={this.state.isButton2Selected}
-            isNextButtonVisible={this.state.isNextButtonVisible}
-            updateScore={this.props.updateScore}
-            resetScore={this.props.resetScore}
-            needToResetScore={this.props.needToResetScore}
-            ignore={this.props.ignore}
-            updateSubScore={this.props.updateSubScore}
-            subScore={"subScore"}
-          />
-        ) : null}
+        <NextButton
+          callback={this.props.callback}
+          type={"choicePanel"}
+          resetButtonStates={resetButtonStates}
+          resetNextButton={resetNextButton}
+          isButton1Selected={this.state.isButton1Selected}
+          isButton2Selected={this.state.isButton2Selected}
+          isNextButtonVisible={this.state.isNextButtonVisible}
+          updateScore={this.props.updateScore}
+          resetScore={this.props.resetScore}
+          needToResetScore={this.props.needToResetScore}
+          ignore={this.props.ignore}
+          updateSubScore={this.props.updateSubScore}
+          subScore={"subScore"}
+        />
       </div>
     );
   }
