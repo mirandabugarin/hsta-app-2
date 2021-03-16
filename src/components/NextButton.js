@@ -1,4 +1,5 @@
 import "../css/NextButton.css";
+import arrow from "../images/right-arrow.svg";
 
 function NextButton(props) {
   const handleClick = () => {
@@ -27,10 +28,7 @@ function NextButton(props) {
   };
   //console.log("next button " + props.isNextButtonVisible);
   return (
-    <div
-      className={props.isNextButtonVisible ? "visible" : "hidden"}
-      onClick={handleClick}
-    >
+    <div className="NextButton" onClick={handleClick}>
       <i class="fa fa-angle-right"></i>
       <i class="fa fa-angle-right"></i>
     </div>

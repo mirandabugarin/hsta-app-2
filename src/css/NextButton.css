@@ -1,17 +1,5 @@
-.hidden {
+.NextButton {
   display: flex;
-  flex-direction: row;
-  visibility: hidden;
-  font-size: 50px;
-  position: relative;
-  right: 0;
-  transition: right ease 0.5s;
-  opacity: 80%;
-}
-
-.visible {
-  display: flex;
-  visibility: visible;
   flex-direction: row;
   font-size: 50px;
   position: relative;
@@ -20,7 +8,7 @@
   opacity: 80%;
 }
 
-.visible:hover {
+.NextButton:hover {
   right: -10px;
   opacity: 100%;
 }
